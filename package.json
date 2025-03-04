@@ -1,9 +1,7 @@
 {
   "name": "fullstack-react-twitter-clone",
   "private": true,
-  "engines": {
-    "node": "^16.17"
-  },
+
   "dependencies": {
     "@babel/preset-react": "^7.26.3",
     "@rails/actioncable": "^6.0.0",
