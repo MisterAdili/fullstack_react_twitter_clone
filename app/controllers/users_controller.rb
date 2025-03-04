@@ -11,6 +11,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def list
+    @users = User.all
+    render 'users/index'
+  end
+  
   private
 
   def user_params

@@ -19,7 +19,6 @@ class TweetsController < ApplicationController
     @tweet = user.tweets.new(tweet_params)
 
     if @tweet.save
-      TweetMailer.notify(@tweet).deliver!
       render 'tweets/create', status: 201
     end
 
